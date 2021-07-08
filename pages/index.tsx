@@ -96,15 +96,15 @@ const Home: React.FC<{posts: Post[]}> = (props) => {
             {/* Social Links */}
               <Row className="pb-2">
                 <Col>
-                  <a href="https://twitter.com/CavalryCoding" target="_blank" className={`btn btn-primary rounded-circle`} role="button">
+                  <a href="https://twitter.com/CavalryCoding" target="_blank" rel="noreferrer" className={`btn btn-primary rounded-circle`} role="button">
                     <TwitterIcon/>
                   </a>
                             
-                  <a href="https://www.youtube.com/channel/UC5BMmH2DvXboFMSiUBquCww/featured" target="_blank" className={`btn btn-primary rounded-circle mx-4`} role="button">
+                  <a href="https://www.youtube.com/channel/UC5BMmH2DvXboFMSiUBquCww/featured" target="_blank" rel="noreferrer" className={`btn btn-primary rounded-circle mx-4`} role="button">
                     <YouTubeIcon/>
                   </a>
 
-                  <a href="https://www.linkedin.com/in/davidlindnerjr/"  target="_blank" className={`btn btn-primary rounded-circle`} role="button">
+                  <a href="https://www.linkedin.com/in/davidlindnerjr/"  target="_blank" rel="noreferrer" className={`btn btn-primary rounded-circle`} role="button">
                     <LinkedInIcon/>
                   </a>
                 </Col>
@@ -125,7 +125,7 @@ const Home: React.FC<{posts: Post[]}> = (props) => {
                 <h1 className={`display-4 text-decoration-none font-weight-bold`}>{post.title}</h1>
                 <h5 className={`text-muted pt-1 pb-4`}>{getFormattedDate(post.published_at)}</h5>
                 <h3 className={`text-left px-5 pb-5`}>{ post.custom_excerpt }</h3>
-                  <Link href="/post/[slug]" as={`/post/${post.slug}`}>
+                  <Link href="/post/[slug]" as={`/post/${post.slug}`} passHref>
                     <Button>
                       READ MORE
                     </Button>

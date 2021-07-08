@@ -75,7 +75,7 @@ const Post: React.FC<{post: Post}> = (props) => {
             <Container>
                 <Row className={`py-5`}>
                     <Col>
-                        <Link href="/">
+                        <Link href="/" passHref>
                             <Button className="btn-light btn-link">
                                 RETURN HOME
                             </Button>

@@ -15,36 +15,36 @@ const Footer = () => {
                     <Col md={6} className={'text-left py-2'}>
                         <Row>
                             <Col xs={6} sm={6} md={6}>
-                                <Link href="/">
+                                <Link href="/" passHref>
                                     <div className={`${styles.pointer} ${styles.fontSizeSm} py-1`}>Home</div>
                                 </Link>
                             </Col>
                             <Col xs={6} sm={6} md={6}>
-                                <Link href="/resources">
+                                <Link href="/resources" passHref>
                                     <div className={`${styles.pointer} ${styles.fontSizeSm} py-1`}>Resources</div>
                                 </Link>
                             </Col>
                         </Row>
                         <Row>
                             <Col xs={6} sm={6} md={6}>
-                                <Link href="/about">
+                                <Link href="/about" passHref>
                                     <div className={`${styles.pointer} ${styles.fontSizeSm} py-1`}>About</div>
                                 </Link>
                             </Col>
                             <Col xs={6} sm={6} md={6}>
-                                <Link href="/contact">
+                                <Link href="/contact" passHref>
                                     <div className={`${styles.pointer} ${styles.fontSizeSm} py-1`}>Contact</div>
                                 </Link>
                             </Col>
                         </Row>
                         <Row>
                             <Col xs={6} sm={6} md={6}>
-                                <Link href="/permission-policy">
+                                <Link href="/permission-policy" passHref>
                                     <div className={`${styles.pointer} ${styles.fontSizeSm} py-1`}>Permission Policy</div>
                                 </Link>
                             </Col>
                             <Col xs={6} sm={6} md={6}>
-                                <Link href="/privacy-policy">
+                                <Link href="/privacy-policy" passHref>
                                     <div className={`${styles.pointer} ${styles.fontSizeSm} py-1`}>Privacy Policy</div>
                                 </Link>
                             </Col>
@@ -66,15 +66,15 @@ const Footer = () => {
                         </Row>
                         <Row className="pb-2">
                             <Col>
-                                <a href="https://twitter.com/CavalryCoding" target="_blank" className="btn btn-primary rounded-circle" role="button">
+                                <a href="https://twitter.com/CavalryCoding" target="_blank" rel="noreferrer" className="btn btn-primary rounded-circle" role="button">
                                     <TwitterIcon/>
                                 </a>
                     
-                                <a href="https://www.youtube.com/channel/UC5BMmH2DvXboFMSiUBquCww/featured" target="_blank" className="btn btn-primary rounded-circle mx-4" role="button">
+                                <a href="https://www.youtube.com/channel/UC5BMmH2DvXboFMSiUBquCww/featured" target="_blank" rel="noreferrer" className="btn btn-primary rounded-circle mx-4" role="button">
                                     <YouTubeIcon/>
                                 </a>
 
-                                <a href="https://www.linkedin.com/in/davidlindnerjr/" target="_blank" className="btn btn-primary rounded-circle" role="button">
+                                <a href="https://www.linkedin.com/in/davidlindnerjr/" target="_blank" rel="noreferrer" className="btn btn-primary rounded-circle" role="button">
                                     <LinkedInIcon/>
                                 </a>
                             </Col>

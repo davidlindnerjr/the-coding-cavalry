@@ -8,7 +8,7 @@ const about = () => {
         <Container className="pb-5">
             <Row className={`py-5`}>
                     <Col md={8}>
-                        <Link href="/">
+                        <Link href="/" passHref>
                             <Button className="btn-light btn-link">
                                 RETURN HOME
                             </Button>

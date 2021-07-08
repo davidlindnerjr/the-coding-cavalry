@@ -15,22 +15,22 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav" className="text-center">
                         <Nav className={`m-auto ${styles.navbarNav}`}>
                             <Nav.Link className={`mx-5`}>
-                                <Link href="/">
+                                <Link href="/" passHref>
                                     <h2 className={`${styles.westernFont} font-weight-bold text-primary`}>Home</h2>
                                 </Link>
                             </Nav.Link>
                             <Nav.Link className={`mx-5 `}>
-                                <Link href="/resources">
+                                <Link href="/resources" passHref>
                                     <h2 className={`${styles.westernFont} font-weight-bold text-primary`}>Resources</h2>
                                 </Link>
                             </Nav.Link>
                             <Nav.Link className={`mx-5 `}>
-                                <Link href="/about">
+                                <Link href="/about" passHref>
                                     <h2 className={`${styles.westernFont} font-weight-bold text-primary`}>About</h2>
                                 </Link>
                             </Nav.Link>
                             <Nav.Link className={`mx-5 `}>
-                                <Link href="/contact">
+                                <Link href="/contact" passHref>
                                     <h2 className={`${styles.westernFont} font-weight-bold text-primary`}>Contact</h2>
                                 </Link>
                             </Nav.Link>

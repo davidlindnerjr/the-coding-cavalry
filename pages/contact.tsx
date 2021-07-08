@@ -8,7 +8,7 @@ const contact = () => {
         <Container>
             <Row className={`py-5`}>
                     <Col md={8}>
-                        <Link href="/">
+                        <Link href="/" passHref>
                             <Button className="btn-light btn-link">
                                 RETURN HOME
                             </Button>
@@ -28,13 +28,13 @@ const contact = () => {
 
                         <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Send us an email - </span>thecodingcavalry@gmail.com</h2>
 
-                        <a href="https://www.linkedin.com/in/davidlindnerjr/" target="_blank">
+                        <a href="https://www.linkedin.com/in/davidlindnerjr/" target="_blank" rel="noreferrer">
                             <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Find the author on LinkedIn - </span>David Lindner Jr</h2>
                         </a>
-                        <a href="https://www.youtube.com/channel/UC5BMmH2DvXboFMSiUBquCww" target="_blank">
+                        <a href="https://www.youtube.com/channel/UC5BMmH2DvXboFMSiUBquCww" target="_blank" rel="noreferrer">
                             <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Check us out on YouTube - </span>The Coding Cavalry</h2>
                         </a>
-                        <a href="https://twitter.com/CavalryCoding" target="_blank">
+                        <a href="https://twitter.com/CavalryCoding" target="_blank" rel="noreferrer">
                             <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Get the latest updates on Twitter- </span>The Coding Cavalry</h2>
                         </a>
                     </Col>

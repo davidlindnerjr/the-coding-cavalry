@@ -9,7 +9,7 @@ const resources = () => {
             <Container>
                 <Row className={`py-5`}>
                     <Col md={8}>
-                        <Link href="/">
+                        <Link href="/" passHref>
                             <Button className="btn-light btn-link">
                                 RETURN HOME
                             </Button>
@@ -19,7 +19,7 @@ const resources = () => {
                 <Row className={`text-center pb-5`}>
                     <Col md={12}>
                         <div>
-                            <h1 className={`font-weight-bold display-3 ${styles.westernFont}`}>Rootin' Tootin' Resources For Coding in 2021</h1>
+                            <h1 className={`font-weight-bold display-3 ${styles.westernFont}`}>Rootin Tootin Resources For Coding in 2021</h1>
                         </div>
                         <h4 className={`text-muted pt-1 pb-4`}>June 27th, 2021</h4>
                     </Col>
@@ -74,7 +74,7 @@ const resources = () => {
                             With that being said there is a problem with YouTube have any and all 
                             resource for programming at your disposal; you can become overwhelmed 
                             by how much there is at your disposal. So where do you start? The first 
-                            step I would recommend someone to do if they aren't too sure about what 
+                            step I would recommend someone to do if they arent too sure about what 
                             specific programming they want to learn is to shop around. Search up some 
                             specific topics or languages and watch some crash courses, typically consisting
                             of about 1-2 hours of content, and get a feel for what you like. Once you find 
@@ -90,37 +90,37 @@ const resources = () => {
                         <h3>Recommended Creators on YouTube</h3>
                         <ul>
                             <li>
-                                <a href="https://www.youtube.com/user/TechGuyWeb" target="_blank" className={`text-primary`}>
+                                <a href="https://www.youtube.com/user/TechGuyWeb" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>Traversy Media</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw" target="_blank" className={`text-primary`}>
+                                <a href="https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>Web Dev Simplified </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw" target="_blank" className={`text-primary`}>
+                                <a href="https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>Mike Dane</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/user/thenewboston" target="_blank" className={`text-primary`}>
+                                <a href="https://www.youtube.com/user/thenewboston" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>The New Boston</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q" target="_blank" className={`text-primary`}>
+                                <a href="https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>Dev Ed</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg" target="_blank" className={`text-primary`}>
+                                <a href="https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>Tech w/ Tim</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/user/DesignCourse" target="_blank" className={`text-primary`}>
+                                <a href="https://www.youtube.com/user/DesignCourse" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>Design Course</h4>
                                 </a>
                             </li>
@@ -132,7 +132,7 @@ const resources = () => {
                             If you are someone who needs a structured, step-by-step, learning experience then Udemy is going to be an ideal resource for you.
                             Udemy had thousands of courses for programming. There are courses for becoming a full stack web developer, cyber security, arifial
                             inteligence with Python, and so much more. Instructors on this site offer courses that can range from anywhere between an hour to over 
-                            40 hours worth of content. Udemy does something cool where they offer sales on their courses multiple times during each month, so it'll
+                            40 hours worth of content. Udemy does something cool where they offer sales on their courses multiple times during each month, so itll
                             be less expensive to go over and snag some knowledge. Some courses offer a certificate from the instructor after completing the course;
                             this can be really handy to add to your resume and LinkedIn profile in order to show future employers your knowledge and to show that
                             you can complete a task/ project. 
@@ -148,7 +148,7 @@ const resources = () => {
                             There are multiple categories of programming to choose from. In each module
                             you start out with the the basics and gradually work your way up through a series of lectures that you can read through at your own pace. Each
                             lecture has multiple examples and information on everything to be learned in that particilar section. After each lecture there is an exercise where you
-                            put yout newfound skills to the test. If you are unable to complete the exercise don't worry! The exercise offers answers and explanations if you find
+                            put yout newfound skills to the test. If you are unable to complete the exercise dont worry! The exercise offers answers and explanations if you find
                             yourself stuck. Also, just like the name implies, freeCodeCamp is 100% free!
                         </p>
                         <p className='lead'>
@@ -167,19 +167,19 @@ const resources = () => {
                         <h1 className={`display-4 font-weight-bold ${styles.westernFont}`}>HTML/CSS</h1>
                         <ul>
                             <li>
-                                <a href="https://www.w3schools.com/" target="_blank" className={`text-primary`}>
+                                <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>w3schools</h4>
                                 </a>
                                 <h5>If you are writing HTML/CSS and you have no idea what something does, w3schools will! w3schools is full of documentation on whatever you may need.</h5>
                             </li>
                             <li>
-                                <a href="https://codepen.io/" target="_blank" className={`text-primary`}>
+                                <a href="https://codepen.io/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>Codepen</h4>
                                 </a>
-                                <h5>If you have a quick idea that just sprouted open up Codepen.io, a free web based sandbox text editor, and test out your code! Codepen is also full of creators and users sharing there own super cool code snippets. It's a great resource for learning and just overall getting inspiration from others.</h5>
+                                <h5>If you have a quick idea that just sprouted open up Codepen.io, a free web based sandbox text editor, and test out your code! Codepen is also full of creators and users sharing there own super cool code snippets. Its a great resource for learning and just overall getting inspiration from others.</h5>
                             </li>
                             <li>
-                                <a href="https://css-tricks.com/" target="_blank" className={`text-primary`}>
+                                <a href="https://css-tricks.com/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                     <h4>CSS-TRICKS</h4>
                                 </a>
                                 <h5>CSS-Tricks is a great place to discover creative things regarding css code, gather inspiration for your own projects, and add a few more tricks up your sleeve.</h5>
@@ -202,25 +202,25 @@ const resources = () => {
                             </p>
                             <ul>
                                 <li>
-                                    <a href="https://getbootstrap.com/" target="_blank" className={`text-primary`}>
+                                    <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                         <h4>Bootstrap</h4>
                                     </a>
-                                    <h5>Bootstrap is one of, if not the most, popular CSS frameworks out there; allowing you to quickly design and customize your site's look.</h5>
+                                    <h5>Bootstrap is one of, if not the most, popular CSS frameworks out there; allowing you to quickly design and customize your sites look.</h5>
                                 </li>
                                 <li>
-                                    <a href="https://tailwindcss.com/" target="_blank" className={`text-primary`}>
+                                    <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                         <h4>tailwindcss</h4>
                                     </a>
                                     <h5>Tailwind is similar to Bootstrap but offeres more simple components and a bigger emphasis and customization.</h5>
                                 </li>
                                 <li>
-                                    <a href="https://materializecss.com/" target="_blank" className={`text-primary`}>
+                                    <a href="https://materializecss.com/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                         <h4>Materrialize</h4>
                                     </a>
-                                    <h5>Materialize is great in it's ease of use, cross-bowser compatibilty, and is great at producing mobile friendly applications.</h5>
+                                    <h5>Materialize is great in its ease of use, cross-bowser compatibilty, and is great at producing mobile friendly applications.</h5>
                                 </li>
                                 <li>
-                                    <a href="https://getuikit.com/" target="_blank" className={`text-primary`}>
+                                    <a href="https://getuikit.com/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                         <h4>UIkit</h4>
                                     </a>
                                     <h5>If you are looking for something that is lightweight and eays to learn, UIkit is the place to be. UIkit also offers ready to go themes.</h5>
@@ -248,28 +248,28 @@ const resources = () => {
                         </p>
                         <p className='lead'>
                             Sharing your code is another reason why Git is so widely adopted. Before, if you were coding on a team you would have to send lines of code to eachother and cross your
-                            fingers that at the end of the day that your code would compile. Git solves this problem. In GitHub you start off with a main project or "reposioty". If you have code that you need
-                            to add to the project then you create a "branch" which is a copy of the main code; meaning if you mess up then it will not affect the main code. Once you know you code works, you can merge 
+                            fingers that at the end of the day that your code would compile. Git solves this problem. In GitHub you start off with a main project or reposioty. If you have code that you need
+                            to add to the project then you create a branch which is a copy of the main code; meaning if you mess up then it will not affect the main code. Once you know you code works, you can merge 
                             your code with the main code; and now eveyone else can have your code. Git helps to make teamwork seamless.
                         </p>
                         <ul>
                             <li>
-                                <a href="https://getbootstrap.com/" target="_blank" className={`text-primary`}>
+                                <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" className={`text-primary`}>
                                    <h4>Check out GitHub</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://docs.github.com/en" target="_blank" className={`text-primary`}>
+                                <a href="https://docs.github.com/en" target="_blank" rel="noreferrer" className={`text-primary`}>
                                    <h4>GitHub Documentation</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/" target="_blank" className={`text-primary`}>
-                                   <h4>freeCodeCamp Beginner's Guide to Git & GitHub</h4>
+                                <a href="https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/" target="_blank" rel="noreferrer" className={`text-primary`}>
+                                   <h4>freeCodeCamp Beginners Guide to Git & GitHub</h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank" className={`text-primary`}>
+                                <a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank" rel="noreferrer" className={`text-primary`}>
                                    <h4>Learn Git Version Control</h4>
                                 </a>
                             </li>
