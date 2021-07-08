@@ -142,7 +142,7 @@ const resources = () => {
                         </a>
                         <p className='lead'>
                             freeCodeCamp is actually where I got my start in web development. I learned the basics of HTML, CSS, and even a fair bit of Javascript.
-                            If you're someone who enjoys learning by doing then this is for you. 
+                            If youre someone who enjoys learning by doing then this is for you. 
                         </p>
                         <p className='lead'>
                             There are multiple categories of programming to choose from. In each module
