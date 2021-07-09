@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import styles from '../styles/Home.module.scss';
 import Link from 'next/link';
 import { Container, Row, Col, Image, Button, Jumbotron } from 'react-bootstrap';
@@ -88,6 +89,10 @@ const Home: React.FC<{posts: Post[]}> = (props) => {
 
   return (
     <>
+      <Head>
+        <title>The Coding Cavalry | Home</title>
+        <script data-ad-client="ca-pub-2840864065190538" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      </Head>
       <Jumbotron className={`${styles.showcaseBG} fluid-jumbotron`}>
         <Container>
         <Row className={`align-items-center text-center`}>

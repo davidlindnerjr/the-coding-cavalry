@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import styles from '../../styles/Home.module.scss'
 import { Container, Row, Col, Button } from 'react-bootstrap'
@@ -72,6 +73,10 @@ const Post: React.FC<{post: Post}> = (props) => {
     console.log(props)
     return(
         <>
+            <Head>
+                <title>The Coding Cavalry | {post.title}</title>
+                <script data-ad-client="ca-pub-2840864065190538" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            </Head>
             <Container>
                 <Row className={`py-5`}>
                     <Col>

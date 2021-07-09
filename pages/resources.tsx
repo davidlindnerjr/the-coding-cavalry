@@ -1,11 +1,16 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.scss';
 
 const resources = () => {
     return (
         <>
+        <Head>
+            <title>The Coding Cavalry | Handy Programming Resources</title>
+            <script data-ad-client="ca-pub-2840864065190538" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        </Head>
             <Container>
                 <Row className={`py-5`}>
                     <Col md={8}>
