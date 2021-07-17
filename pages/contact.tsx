@@ -32,16 +32,16 @@ const contact = () => {
                         <Col md={2}></Col>
                         <Col md={8}>
 
-                            <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Send us an email - </span>thecodingcavalry@gmail.com</h2>
+                            <h2 className={`py-3 text-primary ${styles.westernFont}`}><span className='text-dark'>Send us an email - </span>thecodingcavalry@gmail.com</h2>
 
                             <a href="https://www.linkedin.com/in/davidlindnerjr/" target="_blank" rel="noreferrer">
-                                <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Find the author on LinkedIn - </span>David Lindner Jr</h2>
+                                <h2 className={`py-3 text-primary ${styles.westernFont}`}><span className='text-dark'>Find the author on LinkedIn - </span>David Lindner Jr</h2>
                             </a>
                             <a href="https://www.youtube.com/channel/UC5BMmH2DvXboFMSiUBquCww" target="_blank" rel="noreferrer">
-                                <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Check us out on YouTube - </span>The Coding Cavalry</h2>
+                                <h2 className={`py-3 text-primary ${styles.westernFont}`}><span className='text-dark'>Check us out on YouTube - </span>The Coding Cavalry</h2>
                             </a>
                             <a href="https://twitter.com/CavalryCoding" target="_blank" rel="noreferrer">
-                                <h2 className={`py-2 text-primary ${styles.westernFont}`}><span className='text-dark'>Get the latest updates on Twitter- </span>The Coding Cavalry</h2>
+                                <h2 className={`py-3 text-primary ${styles.westernFont}`}><span className='text-dark'>Get the latest updates on Twitter- </span>The Coding Cavalry</h2>
                             </a>
                         </Col>
                         <Col md={2}></Col>
