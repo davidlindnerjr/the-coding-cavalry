@@ -74,7 +74,7 @@ const Post: React.FC<{post: Post}> = (props) => {
     return(
         <>
             <Head>
-                <title>The Coding Cavalry | {post.title}</title>
+                <title>{post.title}</title>
                 <script data-ad-client="ca-pub-2840864065190538" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <Container>
